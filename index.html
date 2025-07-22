@@ -2,28 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script src="https://kit.fontawesome.com/b34e4d5cf2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="tailwind.init.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://kit.fontawesome.com/b34e4d5cf2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="tailwind.init.css" />
 </head>
 
 <body>
-    <header>
-        <section class="max-w-292.5 mx-auto my-12.5 flex justify-between items-center">
-            <img class="w-max" src="images/logo2.png" alt="">
-            <ul class="flex justify-between gap-x-7.5">
-                <li><a class="font-poppins text-base color-dark3" href="#">Home</a></li>
-                <li><a class="font-poppins text-base color-dark3 flex gap-2 items-center" href="#">Services<i class="text-xl color-dark3 fa-solid fa-chevron-right"></i></a></li>
-                <li><a class="font-poppins text-base color-dark3 flex gap-2 items-center" href="#">Cases <i class="text-xl color-dark3 fa-solid fa-chevron-right"></i></a></li>
-                <li><a class="font-poppins text-base color-dark3 flex gap-2 items-center" href="#">Blog <i class="text-xl fa-solid fa-chevron-right"></i></a></li>
-                <li><a class="font-poppins text-base color-dark3" href="#">Contact Us</a></li>
-            </ul>
-            <button class="btn-primary font-poppins">Free Consultation</button>
-        </section>
-    </header>
+  <header>
+    <section class="max-w-292.5 mx-4 xl:mx-auto my-12.5 flex flex-col lg:flex-row gap-y-6 items-center">
+      <div class="w-full flex justify-between items-center">
+        <a class="lg:hidden" href=""><i class="fa-solid fa-bars"></i></a>
+        <img class="w-max" src="images/logo2.png" alt="" />
+        <ul class="lg:flex-1 lg:flex justify-center lg:gap-x-7.5">
+          <li class="">
+            <a class="font-poppins text-base color-dark3" href="#">Home</a>
+          </li>
+          <li class="hidden lg:block">
+            <a class="font-poppins text-base color-dark3 flex gap-2 items-center" href="#">Services<i
+                class="text-xl color-dark3 fa-solid fa-chevron-right"></i></a>
+          </li>
+          <li class="hidden lg:block">
+            <a class="font-poppins text-base color-dark3 flex gap-2 items-center" href="#">Cases
+              <i class="text-xl color-dark3 fa-solid fa-chevron-right"></i></a>
+          </li>
+          <li class="hidden lg:block">
+            <a class="font-poppins text-base color-dark3 flex gap-2 items-center" href="#">Blog <i
+                class="text-xl fa-solid fa-chevron-right"></i></a>
+          </li>
+          <li class="hidden lg:block">
+            <a class="font-poppins text-base color-dark3" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <button class="font-poppins bg-[#B68C5A] text-white px-4 py-2 rounded-lg cursor-pointer">
+        Free Consultation
+      </button>
+    </section>
+  </header>
 </body>
 
 </html>
